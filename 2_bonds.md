@@ -1,6 +1,22 @@
 # Macaulay Modified Duration: Dual Interpretations in Bond Analysis
 
-## The Formula
+## Bond Valuation
+
+Recall that a bond's value is the present value of all future cash flows, including coupon payments and the face value at maturity.
+
+**Formula:**
+$P = \sum_{t=1}^{n} \frac{C}{(1+r)^t} + \frac{F}{(1+r)^n}$
+
+Where:
+- P = Bond price
+- C = Coupon payment
+- F = Face value (par value)
+- r = Required yield (market interest rate)
+- n = Number of periods to maturity
+
+For bonds with semiannual coupon payments (common in the US), the formula becomes:
+
+$P = \sum_{t=1}^{2n} \frac{C/2}{(1+r/2)^t} + \frac{F}{(1+r/2)^{2n}}$## The Formula
 
 The Macaulay Modified Duration is:
 
