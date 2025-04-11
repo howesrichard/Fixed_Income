@@ -18,7 +18,7 @@ Where:
 - n = Number of periods
 
 **Example:**
-If you expect to receive $1,000 in 5 years and the interest rate is 5% per year, the present value would be:
+If you expect to receive $1,000 in 5 years and the interest rate is 5% per year, the present value would be as follows:
 
 $PV = \frac{1,000}{(1+0.05)^5} = \frac{1,000}{1.2763} = \$783.53$
 
